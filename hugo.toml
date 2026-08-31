@@ -1,0 +1,12 @@
+baseURL = "https://erazeunavez.fr/"
+title = "Legacy Code"
+
+theme = "hextra"
+
+locale = "fr-FR"
+defaultContentLanguage = "fr"
+
+[params.footer]
+enable = true
+displayPoweredBy = false
+displayCopyright = false
