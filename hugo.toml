@@ -8,5 +8,5 @@ defaultContentLanguage = "fr"
 
 [params.footer]
 enable = true
-displayPoweredBy = yes
-displayCopyright = yes
+displayPoweredBy = true
+displayCopyright = true
