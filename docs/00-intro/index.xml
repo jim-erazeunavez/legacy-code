@@ -1,0 +1,346 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Legacy Code – 00-Boot Sequence</title><link>https://erazeunavez.fr/docs/00-intro/</link><description>Recent content in 00-Boot Sequence on Legacy Code</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><atom:link href="https://erazeunavez.fr/docs/00-intro/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://erazeunavez.fr/docs/00-intro/00-intro-system/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazeunavez.fr/docs/00-intro/00-intro-system/</guid><description>
+&lt;h1 data-hextra-search-id="00--system"&gt;00 — SYSTEM&lt;/h1&gt;&lt;p&gt;Je suis informaticien.&lt;/p&gt;
+&lt;p&gt;Je préfère vous prévenir tout de suite.&lt;/p&gt;
+&lt;p&gt;Ça expliquera beaucoup de choses dans les pages qui suivent.&lt;/p&gt;
+&lt;p&gt;J&amp;rsquo;ai une légère tendance à considérer qu&amp;rsquo;un problème incompréhensible doit forcément avoir des logs quelque part, qu&amp;rsquo;un comportement étrange mérite qu&amp;rsquo;on regarde les processus en cours et que, si vraiment plus rien ne fonctionne, il reste toujours la possibilité de redémarrer.&lt;/p&gt;
+&lt;p&gt;Déformation professionnelle.&lt;/p&gt;
+&lt;p&gt;Devant un problème, certaines personnes parlent à leurs amis. D&amp;rsquo;autres consultent un psy.&lt;/p&gt;
+&lt;p&gt;Moi, je tape mentalement :&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ tail -f /var/log/life.log&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Chacun sa méthode.&lt;/p&gt;
+&lt;p&gt;Je suis aussi un enfant des années 80.&lt;/p&gt;
+&lt;p&gt;Ce qui n&amp;rsquo;arrange rien.&lt;/p&gt;
+&lt;p&gt;J&amp;rsquo;ai grandi à une époque où un ordinateur était encore un objet légèrement mystérieux, où un téléphone servait essentiellement à téléphoner et où Internet, lorsqu&amp;rsquo;il a fini par arriver dans nos maisons, produisait avant chaque connexion le cri d&amp;rsquo;agonie caractéristique d&amp;rsquo;un modem 56K.&lt;/p&gt;
+&lt;p&gt;Une partie non négligeable de mon système d&amp;rsquo;exploitation a aussi été compilée à partir de &lt;em&gt;Retour vers le futur&lt;/em&gt;, &lt;em&gt;WarGames&lt;/em&gt;, &lt;em&gt;SOS Fantômes&lt;/em&gt;, &lt;em&gt;Indiana Jones&lt;/em&gt;, &lt;em&gt;Terminator&lt;/em&gt; et de quelques centaines d&amp;rsquo;heures de culture parfaitement inutile.&lt;/p&gt;
+&lt;p&gt;Mon cerveau est donc capable de retrouver instantanément une réplique de film vieille de trente ans.&lt;/p&gt;
+&lt;p&gt;En revanche, pourquoi je suis entré dans la cuisine ?&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;SYSTEM:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Long-term pop-culture storage ....... 98%
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Useful short-term memory ............ 12%
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Status: NORMAL FOR AGE&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Merci.&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est probablement pour ça que, lorsque j&amp;rsquo;ai décidé de raconter une histoire vieille de plus de dix ans, mon cerveau l&amp;rsquo;a traitée comme il traite à peu près tout le reste.&lt;/p&gt;
+&lt;p&gt;Comme un système à analyser.&lt;/p&gt;
+&lt;p&gt;J&amp;rsquo;avais des souvenirs, des fichiers, des messages, des textes, des dates, des traces numériques.&lt;/p&gt;
+&lt;p&gt;Autrement dit :&lt;/p&gt;
+&lt;p&gt;des logs.&lt;/p&gt;
+&lt;p&gt;Et lorsqu&amp;rsquo;un informaticien trouve des logs, il fait rarement ce qu&amp;rsquo;il devrait raisonnablement faire.&lt;/p&gt;
+&lt;p&gt;Les laisser tranquilles.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ grep -R &amp;#34;WTF&amp;#34; ./past/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;WARNING:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Too many results.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ça aurait dû être mon premier indice.&lt;/p&gt;
+&lt;p&gt;Il restait cependant un problème.&lt;/p&gt;
+&lt;p&gt;Je suis informaticien.&lt;/p&gt;
+&lt;p&gt;Pas écrivain.&lt;/p&gt;
+&lt;p&gt;Dans ma tête, certaines scènes existaient encore parfaitement. Les transformer en livre était une autre histoire.&lt;/p&gt;
+&lt;p&gt;Construire un chapitre. Trouver un rythme. Couper. Déplacer. Réécrire. Remettre ce qu&amp;rsquo;on venait de supprimer. Puis découvrir le lendemain que le passage écrit à deux heures quarante-sept du matin et considéré comme absolument génial était, en réalité, une grosse merde.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Écrivain, c&amp;rsquo;est un putain de métier.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Et ce n&amp;rsquo;était pas le mien.&lt;/p&gt;
+&lt;p&gt;Il me fallait de l&amp;rsquo;aide.&lt;/p&gt;
+&lt;p&gt;Nous sommes en 2026.&lt;/p&gt;
+&lt;p&gt;Je suis informaticien.&lt;/p&gt;
+&lt;p&gt;J&amp;rsquo;ai grandi avec &lt;em&gt;Terminator&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;J&amp;rsquo;ai donc pris la seule décision logique possible.&lt;/p&gt;
+&lt;p&gt;J&amp;rsquo;ai confié le problème à une intelligence artificielle.&lt;/p&gt;
+&lt;p&gt;Oui.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Skynet&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Je sais.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;SYSTEM EVENT
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;1984:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Human watches Terminator.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Conclusion:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Never trust artificial intelligence.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;2026:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Same human gives AI access to manuscript.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Conclusion:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Lessons learned ............ 0&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Quelques centaines d&amp;rsquo;heures plus tard, une chose était claire : l&amp;rsquo;IA pouvait m&amp;rsquo;aider à structurer, challenger, couper, reformuler ou supporter la cent-quarante-septième version du même paragraphe.&lt;/p&gt;
+&lt;p&gt;Mais elle ne pouvait pas inventer ce qui comptait vraiment.&lt;/p&gt;
+&lt;p&gt;Les logs.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Cette histoire est inspirée de faits réels.&lt;/p&gt;
+&lt;p&gt;Et pour une fois, cette phrase signifie exactement ce qu&amp;rsquo;elle dit.&lt;/p&gt;
+&lt;p&gt;Une partie des traces existe encore : textes, messages, dates, archives.&lt;/p&gt;
+&lt;p&gt;Mais vous ne les aurez pas toutes.&lt;/p&gt;
+&lt;p&gt;Une histoire réelle appartient d&amp;rsquo;abord aux personnes qui l&amp;rsquo;ont vécue. Certains éléments permettent de la raconter. D&amp;rsquo;autres n&amp;rsquo;ont aucune raison de sortir des archives.&lt;/p&gt;
+&lt;p&gt;Je ne suis pas en train de publier un dump de production.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ pg_dump life &amp;gt; public.sql
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ERROR:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Are you completely fucking insane?&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Excellente question.&lt;/p&gt;
+&lt;p&gt;Le réel sera donc notre point de départ.&lt;/p&gt;
+&lt;p&gt;Pas notre prison.&lt;/p&gt;
+&lt;p&gt;Et lorsque nous aurons atteint la limite de ce qui doit être raconté, nous changerons simplement de branche.&lt;/p&gt;
+&lt;p&gt;Mais nous n&amp;rsquo;en sommes pas encore là.&lt;/p&gt;
+&lt;p&gt;Il reste un dernier détail à régler.&lt;/p&gt;
+&lt;p&gt;Mon cerveau.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Vous avez vu &lt;em&gt;Vice-Versa&lt;/em&gt; ?&lt;/p&gt;
+&lt;p&gt;Plusieurs émotions installées derrière une console et chargées de piloter un cerveau.&lt;/p&gt;
+&lt;p&gt;Chez moi aussi, il y a une console.&lt;/p&gt;
+&lt;p&gt;Sauf que Pixar avait Joie, Tristesse, Peur, Colère et Dégoût.&lt;/p&gt;
+&lt;p&gt;Mon cerveau a manifestement téléchargé ses dépendances sur un dépôt beaucoup moins recommandable.&lt;/p&gt;
+&lt;p&gt;J&amp;rsquo;ai récupéré le casting d&amp;rsquo;&lt;code&gt;American Pie&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;J&amp;rsquo;ai récupéré quatre processus.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stifler. Oz. Kevin. Finch.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Et moi au milieu.&lt;/p&gt;
+&lt;p&gt;Théoriquement root.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ whoami
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;jim
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ sudo systemctl status brain
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;WARNING:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Multiple unmanaged processes detected.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Présentation des services.&lt;/p&gt;
+&lt;h2 data-hextra-search-id="stifler"&gt;STIFLER&lt;span class="hx:absolute hx:-mt-20" id="stifler"&gt;&lt;/span&gt;
+&lt;a href="#stifler" class="subheading-anchor" aria-label="Lien permanent vers cette section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="https://erazeunavez.fr/images/stifler.jpg" alt="Stifler — stifler.exe" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Stifler est la pulsion, le sexe, l&amp;rsquo;ego et le chaos.&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est le processus qui transforme une pensée parfaitement respectable en quelque chose qu&amp;rsquo;il serait généralement préférable de ne pas prononcer à voix haute.&lt;/p&gt;
+&lt;p&gt;Il n&amp;rsquo;a aucun filtre.&lt;/p&gt;
+&lt;p&gt;Aucune notion du moment approprié.&lt;/p&gt;
+&lt;p&gt;Et des droits administrateur qu&amp;rsquo;il n&amp;rsquo;aurait jamais dû obtenir.&lt;/p&gt;
+&lt;p&gt;Mais Stifler possède aussi une fonction importante : c&amp;rsquo;est une soupape de sécurité.&lt;/p&gt;
+&lt;p&gt;Quand la charge émotionnelle devient trop forte, il trouve généralement le moyen de la faire redescendre.&lt;/p&gt;
+&lt;p&gt;Rarement avec délicatesse.&lt;/p&gt;
+&lt;p&gt;Jamais avec dignité.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;stifler.exe
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;filter .............. NOT FOUND
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;dignity ............. NOT FOUND
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;libido .............. RUNNING
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;admin_rights ......... inexplicably YES&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 data-hextra-search-id="oz"&gt;OZ&lt;span class="hx:absolute hx:-mt-20" id="oz"&gt;&lt;/span&gt;
+&lt;a href="#oz" class="subheading-anchor" aria-label="Lien permanent vers cette section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="https://erazeunavez.fr/images/oz.jpg" alt="Oz — oz.exe" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Oz, c&amp;rsquo;est le cœur.&lt;/p&gt;
+&lt;p&gt;Le romantique.&lt;/p&gt;
+&lt;p&gt;La partie du système qui considère que les émotions constituent parfaitement une donnée exploitable, même lorsqu&amp;rsquo;elles ne rentrent dans aucune colonne d&amp;rsquo;un tableur.&lt;/p&gt;
+&lt;p&gt;Il conserve des détails que personne ne lui a demandé de sauvegarder.&lt;/p&gt;
+&lt;p&gt;Très longtemps.&lt;/p&gt;
+&lt;p&gt;Beaucoup trop longtemps.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;oz.exe
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;logic ............... OPTIONAL
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;emotional_cache ..... UNLIMITED
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;delete_old_memories . DISABLED&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 data-hextra-search-id="kevin"&gt;KEVIN&lt;span class="hx:absolute hx:-mt-20" id="kevin"&gt;&lt;/span&gt;
+&lt;a href="#kevin" class="subheading-anchor" aria-label="Lien permanent vers cette section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="https://erazeunavez.fr/images/kevin.jpg" alt="Kevin — kevin.exe" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Kevin représente la raison, les faits et la cohérence.&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est notre administrateur sécurité.&lt;/p&gt;
+&lt;p&gt;Il refuse tout par défaut.&lt;/p&gt;
+&lt;p&gt;Kevin vérifie les dates, confronte les souvenirs aux faits et pose généralement la question que personne n&amp;rsquo;avait envie d&amp;rsquo;entendre.&lt;/p&gt;
+&lt;p&gt;Il est prudent.&lt;/p&gt;
+&lt;p&gt;Méthodique.&lt;/p&gt;
+&lt;p&gt;Souvent pénible.&lt;/p&gt;
+&lt;p&gt;Et malheureusement souvent utile.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;kevin.exe
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;firewall ............ ENABLED
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;risk_tolerance ...... LOW
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;fact_check .......... ENABLED
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;fun .................. BLOCKED BY POLICY&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 data-hextra-search-id="finch"&gt;FINCH&lt;span class="hx:absolute hx:-mt-20" id="finch"&gt;&lt;/span&gt;
+&lt;a href="#finch" class="subheading-anchor" aria-label="Lien permanent vers cette section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="https://erazeunavez.fr/images/finch.jpg" alt="Finch — finch.exe" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Finch analyse.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tout.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Une phrase, une date, un fichier, une incohérence : donnez-lui trois lignes de logs et il voudra immédiatement les trois gigaoctets précédents.&lt;/p&gt;
+&lt;p&gt;Il corrèle.&lt;/p&gt;
+&lt;p&gt;Il compare.&lt;/p&gt;
+&lt;p&gt;Il reconstruit.&lt;/p&gt;
+&lt;p&gt;Et il considère manifestement que « c&amp;rsquo;est vieux, on s&amp;rsquo;en fout » n&amp;rsquo;est pas une hypothèse de travail acceptable.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;finch.exe
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;analysis ............ RUNNING
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;pattern_detection ... RUNNING
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;log_retention ....... FOREVER
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;overthinking ........ CRITICAL&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 data-hextra-search-id="jim"&gt;JIM&lt;span class="hx:absolute hx:-mt-20" id="jim"&gt;&lt;/span&gt;
+&lt;a href="#jim" class="subheading-anchor" aria-label="Lien permanent vers cette section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="https://erazeunavez.fr/images/jim.jpg" alt="Jim — processus principal, normalement" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Jim, c&amp;rsquo;est moi.&lt;/p&gt;
+&lt;p&gt;Enfin&amp;hellip;&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est censé être moi.&lt;/p&gt;
+&lt;p&gt;Le processus principal.&lt;/p&gt;
+&lt;p&gt;Celui qui possède théoriquement la console, les droits root et le dernier mot.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;jim.exe
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;role ................ narrator
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;root_access ......... YES
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;actual_control ...... DEBATABLE&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Voilà.&lt;/p&gt;
+&lt;p&gt;Vous connaissez l&amp;rsquo;architecture.&lt;/p&gt;
+&lt;p&gt;Le reste viendra quand il devra venir.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;SYSTEM BOOT
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;project ............. LEGACY CODE
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;source:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; real_logs ......... AVAILABLE
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; privacy_filter .... ENABLED
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;internal processes:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; stifler.exe ....... RUNNING
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; oz.exe ............ RUNNING
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; kevin.exe ......... RUNNING
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; finch.exe ......... RUNNING
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;jim.control ......... nominal
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;SYSTEM:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Narrative environment ready.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ _&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Bon.&lt;/p&gt;
+&lt;p&gt;Maintenant, on peut commencer.&lt;/p&gt;</description></item></channel></rss>

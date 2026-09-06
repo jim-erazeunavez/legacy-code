@@ -1,0 +1,476 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Legacy Code – 01-Present Day</title><link>https://erazeunavez.fr/docs/01-chapitre-01/</link><description>Recent content in 01-Present Day on Legacy Code</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><atom:link href="https://erazeunavez.fr/docs/01-chapitre-01/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://erazeunavez.fr/docs/01-chapitre-01/01-present-day/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazeunavez.fr/docs/01-chapitre-01/01-present-day/</guid><description>
+&lt;h1 data-hextra-search-id="present-day"&gt;Present Day&lt;/h1&gt;&lt;p&gt;Il existe deux sortes de rangement informatique.&lt;/p&gt;
+&lt;p&gt;Celui qu’on fait parce qu’on sait précisément ce qu’on cherche, avec une arborescence propre, une stratégie, éventuellement une sauvegarde préalable et cette satisfaction très adulte de supprimer enfin douze gigaoctets devenus inutiles.&lt;/p&gt;
+&lt;p&gt;Et celui où l’on ouvre un vieux disque dur.&lt;/p&gt;
+&lt;p&gt;Je pratiquais le second.&lt;/p&gt;
+&lt;p&gt;L’objectif initial était pourtant parfaitement innocent : retrouver quelques vieux fichiers, faire un peu de ménage et récupérer ce qui méritait encore de l’être avant qu’un support ayant largement dépassé son espérance de vie décide un matin de rejoindre définitivement le paradis du SATA.&lt;/p&gt;
+&lt;p&gt;Une opération de maintenance.&lt;/p&gt;
+&lt;p&gt;Rien de plus.&lt;/p&gt;
+&lt;p&gt;J’avais branché le disque, attendu le petit bruit caractéristique indiquant que Windows venait de reconnaître un périphérique dont lui-même semblait surpris de constater la survie, puis commencé à parcourir les répertoires.&lt;/p&gt;
+&lt;p&gt;Des sauvegardes, des photos, des documents, des dossiers portant des noms parfaitement explicites comme &lt;code&gt;backup&lt;/code&gt;, &lt;code&gt;backup2&lt;/code&gt;, &lt;code&gt;ancien&lt;/code&gt;, &lt;code&gt;ancien_backup&lt;/code&gt;, et l’inévitable &lt;code&gt;a_trier&lt;/code&gt;, créé plusieurs années auparavant par un homme manifestement convaincu que son futur lui disposerait de beaucoup plus de temps libre.&lt;/p&gt;
+&lt;p&gt;Cet homme était un connard.&lt;/p&gt;
+&lt;p&gt;Je cliquais, je regardais, je supprimais parfois, avec cette étrange sensation produite par les archives numériques : votre vie entière semble avoir été organisée par plusieurs versions successives de vous-même qui ne se sont jamais concertées et se sont pourtant toutes entendues pour laisser le problème à la suivante.&lt;/p&gt;
+&lt;p&gt;Puis je suis tombé sur un dossier.&lt;/p&gt;
+&lt;p&gt;J’ai reconnu le nom immédiatement et ma main est restée quelques secondes immobile sur la souris.&lt;/p&gt;
+&lt;p&gt;— Oh.&lt;/p&gt;
+&lt;p&gt;Kevin venait d’apparaître.&lt;/p&gt;
+&lt;p&gt;— Quoi, « oh » ?&lt;/p&gt;
+&lt;p&gt;— Rien.&lt;/p&gt;
+&lt;p&gt;— Tu viens de t’arrêter.&lt;/p&gt;
+&lt;p&gt;— J’ai vu un dossier.&lt;/p&gt;
+&lt;p&gt;— Tu en as vu quatre cents depuis tout à l’heure.&lt;/p&gt;
+&lt;p&gt;— Celui-là est différent.&lt;/p&gt;
+&lt;p&gt;Stifler est arrivé immédiatement.&lt;/p&gt;
+&lt;p&gt;Il possède cette capacité remarquable à ne jamais être présent lorsqu’il faut remplir une déclaration d’impôts, porter un meuble ou prendre une décision raisonnable, mais à surgir instantanément dès que quelqu’un prononce une phrase comme &lt;em&gt;celui-là est différent&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;— Qu’est-ce qu’il y a dedans ?&lt;/p&gt;
+&lt;p&gt;— Rien qui te concerne.&lt;/p&gt;
+&lt;p&gt;— Donc quelque chose d’intéressant.&lt;/p&gt;
+&lt;p&gt;Oz s’est approché à son tour, a regardé le nom du dossier, puis moi.&lt;/p&gt;
+&lt;p&gt;— Ah.&lt;/p&gt;
+&lt;p&gt;— Vous allez arrêter avec les « ah » ?&lt;/p&gt;
+&lt;p&gt;Personne n’a répondu.&lt;/p&gt;
+&lt;p&gt;Même Finch était là maintenant.&lt;/p&gt;
+&lt;p&gt;Il ne disait rien.&lt;/p&gt;
+&lt;p&gt;J’aurais pu refermer l’explorateur.&lt;/p&gt;
+&lt;p&gt;C’était même probablement la décision la plus rationnelle. Ce dossier appartenait à une époque ancienne et je n’avais aucune information à y chercher, aucun problème à résoudre, aucune raison particulière de l’ouvrir.&lt;/p&gt;
+&lt;p&gt;Kevin acquiesça.&lt;/p&gt;
+&lt;p&gt;— Exactement. On ferme.&lt;/p&gt;
+&lt;p&gt;— Oui.&lt;/p&gt;
+&lt;p&gt;Stifler le regarda avec consternation.&lt;/p&gt;
+&lt;p&gt;— Vous êtes sérieux ? On vient de retrouver un dossier vieux de plus de dix ans et vous voulez le fermer sans même regarder ce qu’il contient ?&lt;/p&gt;
+&lt;p&gt;— Je sais ce qu’il contient.&lt;/p&gt;
+&lt;p&gt;— Encore mieux.&lt;/p&gt;
+&lt;p&gt;— Non.&lt;/p&gt;
+&lt;p&gt;— Juste l’arborescence.&lt;/p&gt;
+&lt;p&gt;— Non.&lt;/p&gt;
+&lt;p&gt;— On n’ouvre aucun fichier. On regarde les répertoires.&lt;/p&gt;
+&lt;p&gt;— Stifler…&lt;/p&gt;
+&lt;p&gt;— C’est de la métadonnée.&lt;/p&gt;
+&lt;p&gt;Finch releva légèrement la tête.&lt;/p&gt;
+&lt;p&gt;— Techniquement…&lt;/p&gt;
+&lt;p&gt;— Ne commence pas.&lt;/p&gt;
+&lt;p&gt;Il se tut.&lt;/p&gt;
+&lt;p&gt;J’aurais vraiment dû fermer ce dossier.&lt;/p&gt;
+&lt;p&gt;J’ai double-cliqué.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;L’arborescence est apparue.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── photos/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── videos/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;└── backup-blog/&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Trois répertoires.&lt;/p&gt;
+&lt;p&gt;Pas besoin d’ouvrir quoi que ce soit pour comprendre que mon opération de maintenance venait officiellement de changer de périmètre.&lt;/p&gt;
+&lt;p&gt;Stifler, lui, avait déjà effectué son audit.&lt;/p&gt;
+&lt;p&gt;— &lt;code&gt;photos&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;— Oui.&lt;/p&gt;
+&lt;p&gt;— &lt;code&gt;videos&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;— Je sais lire.&lt;/p&gt;
+&lt;p&gt;— Je vérifie simplement que tu mesures correctement la portée historique de cette découverte.&lt;/p&gt;
+&lt;p&gt;Kevin intervint immédiatement.&lt;/p&gt;
+&lt;p&gt;— Il ne faut surtout pas ouvrir &lt;code&gt;videos&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Stifler prit un air offensé.&lt;/p&gt;
+&lt;p&gt;— Je n’ai jamais dit qu’il fallait ouvrir &lt;code&gt;videos&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;— Tu regardes &lt;code&gt;videos&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;— Parce que le nom est intrigant.&lt;/p&gt;
+&lt;p&gt;— Ça s’appelle littéralement &lt;code&gt;videos&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;— Précisément. Quelle concision. Quel mystère.&lt;/p&gt;
+&lt;p&gt;Puis il revint sur le premier répertoire.&lt;/p&gt;
+&lt;p&gt;— Ouvre &lt;code&gt;photos&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;— Non.&lt;/p&gt;
+&lt;p&gt;— Pourquoi ?&lt;/p&gt;
+&lt;p&gt;— Parce que je sais ce qu’il y a dedans.&lt;/p&gt;
+&lt;p&gt;— Moi pas.&lt;/p&gt;
+&lt;p&gt;— C’est précisément ce qui rend la situation encore supportable.&lt;/p&gt;
+&lt;p&gt;— Juste les miniatures.&lt;/p&gt;
+&lt;p&gt;— Non.&lt;/p&gt;
+&lt;p&gt;— Un inventaire.&lt;/p&gt;
+&lt;p&gt;— Un inventaire de quoi ?&lt;/p&gt;
+&lt;p&gt;Il prit immédiatement l’expression professionnelle d’un consultant venant de facturer trois jours pour déplacer une colonne dans Excel.&lt;/p&gt;
+&lt;p&gt;— Du patrimoine iconographique.&lt;/p&gt;
+&lt;p&gt;Kevin leva les yeux au ciel.&lt;/p&gt;
+&lt;p&gt;— Tu veux voir des photos de cul.&lt;/p&gt;
+&lt;p&gt;Stifler parut profondément blessé.&lt;/p&gt;
+&lt;p&gt;— Je trouve extrêmement réducteur que mes ambitions scientifiques soient systématiquement ramenées à ça.&lt;/p&gt;
+&lt;p&gt;— C’est exactement ce que tu veux faire.&lt;/p&gt;
+&lt;p&gt;— Les deux démarches ne sont pas incompatibles.&lt;/p&gt;
+&lt;p&gt;J’ai souri.&lt;/p&gt;
+&lt;p&gt;Erreur.&lt;/p&gt;
+&lt;p&gt;Stifler l’a vu.&lt;/p&gt;
+&lt;p&gt;— Tu vois ! Lui aussi pense qu’il faut ouvrir.&lt;/p&gt;
+&lt;p&gt;— Je n’ai jamais dit ça.&lt;/p&gt;
+&lt;p&gt;— Ton visage l’a dit.&lt;/p&gt;
+&lt;p&gt;— Mon visage te demande surtout de fermer ta gueule.&lt;/p&gt;
+&lt;p&gt;J’ai regardé &lt;code&gt;photos/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Et contre toute forme de sagesse accumulée au cours de plusieurs décennies d’existence, j’ai double-cliqué.&lt;/p&gt;
+&lt;p&gt;Les miniatures ont commencé à apparaître et mon cerveau à reconnaître des morceaux d’une époque qu’il n’avait absolument pas prévu de charger ce jour-là.&lt;/p&gt;
+&lt;p&gt;Certaines étaient parfaitement banales.&lt;/p&gt;
+&lt;p&gt;D’autres beaucoup moins.&lt;/p&gt;
+&lt;p&gt;Stifler s’était rapproché de l’écran.&lt;/p&gt;
+&lt;p&gt;Beaucoup trop.&lt;/p&gt;
+&lt;p&gt;— Oh putain.&lt;/p&gt;
+&lt;p&gt;— Recule.&lt;/p&gt;
+&lt;p&gt;— Attends, celle-là…&lt;/p&gt;
+&lt;p&gt;— Recule.&lt;/p&gt;
+&lt;p&gt;— Et là, c’est…&lt;/p&gt;
+&lt;p&gt;— STIFLER.&lt;/p&gt;
+&lt;p&gt;— Je regarde le patrimoine iconographique !&lt;/p&gt;
+&lt;p&gt;Kevin observait la scène avec le visage d’un responsable sécurité découvrant qu’un stagiaire venait de publier le mot de passe root sur LinkedIn.&lt;/p&gt;
+&lt;p&gt;— Ferme le dossier.&lt;/p&gt;
+&lt;p&gt;— Deux secondes.&lt;/p&gt;
+&lt;p&gt;— Ferme.&lt;/p&gt;
+&lt;p&gt;Mais au milieu des miniatures, je venais d’en reconnaître une.&lt;/p&gt;
+&lt;p&gt;Nous étions tous les deux dessus.&lt;/p&gt;
+&lt;p&gt;Habillés.&lt;/p&gt;
+&lt;p&gt;Ce qui, compte tenu de l’enthousiasme manifesté par Stifler depuis l’ouverture du répertoire, constituait déjà une rupture narrative assez spectaculaire.&lt;/p&gt;
+&lt;p&gt;Nous étions en costume.&lt;/p&gt;
+&lt;p&gt;Elle à côté de moi.&lt;/p&gt;
+&lt;p&gt;Une vraie photo de nous deux.&lt;/p&gt;
+&lt;p&gt;Pas un fragment de corps, pas une image destinée à provoquer l’autre, pas une des photos dont Stifler espérait manifestement dresser un catalogue raisonné.&lt;/p&gt;
+&lt;p&gt;Nous.&lt;/p&gt;
+&lt;p&gt;Oz l’a vue au même moment.&lt;/p&gt;
+&lt;p&gt;Il n’a rien dit.&lt;/p&gt;
+&lt;p&gt;Et c’est précisément à cet instant que &lt;code&gt;wife.exe&lt;/code&gt; est entrée dans la pièce.&lt;/p&gt;
+&lt;p&gt;Pas derrière moi.&lt;/p&gt;
+&lt;p&gt;À côté.&lt;/p&gt;
+&lt;p&gt;Elle n’avait pas encore d’angle direct sur l’écran.&lt;/p&gt;
+&lt;p&gt;J’avais donc quelques secondes.&lt;/p&gt;
+&lt;p&gt;En informatique comme dans beaucoup d’autres domaines, c’est largement suffisant pour prendre une excellente décision.&lt;/p&gt;
+&lt;p&gt;Ou une décision de merde très rapidement.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[SYSTEM]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;PROCESS DETECTED: wife.exe
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;PROXIMITY: CRITICAL
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;SCREEN CONTENT: COMPROMISING
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;CALCULATING SAFE RESPONSE...
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;gt; MINIMIZE WINDOW
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;EXECUTING...
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;gt; ---- KERNEL PANIC !!! -----&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Kevin prit immédiatement le contrôle.&lt;/p&gt;
+&lt;p&gt;— RÉDUIS.&lt;/p&gt;
+&lt;p&gt;— Je sais !&lt;/p&gt;
+&lt;p&gt;— LA FENÊTRE.&lt;/p&gt;
+&lt;p&gt;— JE SAIS !&lt;/p&gt;
+&lt;p&gt;Ma souris a trouvé le bouton.&lt;/p&gt;
+&lt;p&gt;Clic.&lt;/p&gt;
+&lt;p&gt;L’explorateur a disparu dans la barre des tâches.&lt;/p&gt;
+&lt;p&gt;Bureau.&lt;/p&gt;
+&lt;p&gt;Propre.&lt;/p&gt;
+&lt;p&gt;Neutre.&lt;/p&gt;
+&lt;p&gt;Magnifique.&lt;/p&gt;
+&lt;p&gt;Jamais un fond d’écran Windows ne m’avait paru aussi rassurant.&lt;/p&gt;
+&lt;p&gt;Stifler, dont la gestion de crise mériterait d’être enseignée dans toutes les écoles qui souhaitent produire des catastrophes industrielles, trouva néanmoins utile de contribuer.&lt;/p&gt;
+&lt;p&gt;— Ouvre un truc.&lt;/p&gt;
+&lt;p&gt;— Quoi ?&lt;/p&gt;
+&lt;p&gt;— N’importe quoi. Un navigateur. Un PDF. La météo. Fais semblant de bosser.&lt;/p&gt;
+&lt;p&gt;— Si j’ouvre quelque chose maintenant, ça va justement être suspect !&lt;/p&gt;
+&lt;p&gt;Kevin intervint.&lt;/p&gt;
+&lt;p&gt;— Pour une fois, il a raison.&lt;/p&gt;
+&lt;p&gt;Stifler parut sincèrement blessé.&lt;/p&gt;
+&lt;p&gt;— « Pour une fois » ?&lt;/p&gt;
+&lt;p&gt;— Ta gueule.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wife.exe&lt;/code&gt; était maintenant à côté de moi.&lt;/p&gt;
+&lt;p&gt;— Tu fais quoi ?&lt;/p&gt;
+&lt;p&gt;J’ai légèrement tourné la tête.&lt;/p&gt;
+&lt;p&gt;— Je fais du tri sur un vieux disque.&lt;/p&gt;
+&lt;p&gt;Ce qui était vrai.&lt;/p&gt;
+&lt;p&gt;C’est important, la vérité.&lt;/p&gt;
+&lt;p&gt;Surtout lorsqu’elle représente environ quatre pour cent de l’information disponible.&lt;/p&gt;
+&lt;p&gt;Elle a vaguement regardé dans ma direction, sans véritablement chercher à voir l’écran.&lt;/p&gt;
+&lt;p&gt;— Ah, OK.&lt;/p&gt;
+&lt;p&gt;Puis elle est repartie.&lt;/p&gt;
+&lt;p&gt;J’ai attendu quelques secondes.&lt;/p&gt;
+&lt;p&gt;Puis encore quelques-unes.&lt;/p&gt;
+&lt;p&gt;Kevin vérifia symboliquement le périmètre.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[SYSTEM]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;PROCESS wife.exe: OUT OF RANGE
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;THREAT LEVEL: NOMINAL
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;SESSION RECOVERY AVAILABLE&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;J’ai soufflé.&lt;/p&gt;
+&lt;p&gt;Stifler aussi.&lt;/p&gt;
+&lt;p&gt;— Putain, c’était chaud.&lt;/p&gt;
+&lt;p&gt;— Sans toi, &lt;code&gt;photos/&lt;/code&gt; serait toujours fermé.&lt;/p&gt;
+&lt;p&gt;— Sans moi, tu serais toujours dans &lt;code&gt;ancien_backup2&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Il marquait malheureusement un point.&lt;/p&gt;
+&lt;p&gt;Oz réapparut.&lt;/p&gt;
+&lt;p&gt;— Elle est partie ?&lt;/p&gt;
+&lt;p&gt;Je l’ai regardé.&lt;/p&gt;
+&lt;p&gt;— Ah, te revoilà.&lt;/p&gt;
+&lt;p&gt;— Je gérais la situation à distance.&lt;/p&gt;
+&lt;p&gt;— Tu t’es planqué.&lt;/p&gt;
+&lt;p&gt;— Je préservais les ressources émotionnelles du système.&lt;/p&gt;
+&lt;p&gt;— Tu t’es planqué.&lt;/p&gt;
+&lt;p&gt;Il réfléchit quelques secondes.&lt;/p&gt;
+&lt;p&gt;— Oui.&lt;/p&gt;
+&lt;p&gt;J’ai restauré la fenêtre.&lt;/p&gt;
+&lt;p&gt;Les miniatures sont revenues exactement là où nous les avions laissées.&lt;/p&gt;
+&lt;p&gt;Et la photo aussi.&lt;/p&gt;
+&lt;p&gt;Oz a été le premier à la regarder de nouveau.&lt;/p&gt;
+&lt;p&gt;— C’est vous ?&lt;/p&gt;
+&lt;p&gt;— Oui.&lt;/p&gt;
+&lt;p&gt;Stifler se rapprocha aussitôt.&lt;/p&gt;
+&lt;p&gt;— Laquelle ?&lt;/p&gt;
+&lt;p&gt;— Toi, tu recules.&lt;/p&gt;
+&lt;p&gt;— Mais je l’ai déjà vue.&lt;/p&gt;
+&lt;p&gt;— Alors profite de ton souvenir.&lt;/p&gt;
+&lt;p&gt;Oz, lui, continuait à observer la miniature.&lt;/p&gt;
+&lt;p&gt;— Vous êtes en costume.&lt;/p&gt;
+&lt;p&gt;— Excellente analyse.&lt;/p&gt;
+&lt;p&gt;— Non, mais…&lt;/p&gt;
+&lt;p&gt;Je connaissais ce ton.&lt;/p&gt;
+&lt;p&gt;— Oz.&lt;/p&gt;
+&lt;p&gt;— Je dis juste que vous avez l’air…&lt;/p&gt;
+&lt;p&gt;— Oz.&lt;/p&gt;
+&lt;p&gt;Il s’est tu.&lt;/p&gt;
+&lt;p&gt;Trop tard.&lt;/p&gt;
+&lt;p&gt;Je regardais maintenant la photo moi aussi.&lt;/p&gt;
+&lt;p&gt;Je me souvenais de ce moment et je savais suffisamment ce que cette histoire était censée être au départ pour constater que, sur cette image, quelque chose avait manifestement évolué.&lt;/p&gt;
+&lt;p&gt;Nous ne ressemblions pas vraiment à deux personnes qui avaient soigneusement respecté une procédure destinée à éviter toute forme d’attachement.&lt;/p&gt;
+&lt;p&gt;Nous ressemblions juste à nous.&lt;/p&gt;
+&lt;p&gt;Stifler, pour une fois, ne dit rien.&lt;/p&gt;
+&lt;p&gt;Enfin, pendant environ huit secondes.&lt;/p&gt;
+&lt;p&gt;— Bon. Maintenant qu’on a établi qu’il existe des photos habillées, je pense qu’il serait méthodologiquement rigoureux de vérifier si l’échantillon est représentatif.&lt;/p&gt;
+&lt;p&gt;Kevin se tourna vers lui.&lt;/p&gt;
+&lt;p&gt;— Tu veux toujours voir les photos de cul.&lt;/p&gt;
+&lt;p&gt;— Je veux éviter un biais de sélection.&lt;/p&gt;
+&lt;p&gt;— Ferme &lt;code&gt;photos&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;— Dictature.&lt;/p&gt;
+&lt;p&gt;J’ai fermé &lt;code&gt;photos&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Puis je suis revenu à la racine.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── photos/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── videos/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;└── backup-blog/&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Cette fois, mon regard est resté sur &lt;code&gt;backup-blog/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;La photo avait fait remonter des morceaux de cette histoire, mais certainement pas tout.&lt;/p&gt;
+&lt;p&gt;Des scènes étaient encore parfaitement nettes.&lt;/p&gt;
+&lt;p&gt;D’autres beaucoup moins.&lt;/p&gt;
+&lt;p&gt;Et les années avaient fait ce qu’elles font très bien : conserver certains détails complètement absurdes avec une précision remarquable tout en mélangeant le reste.&lt;/p&gt;
+&lt;p&gt;J’ai désigné le troisième répertoire.&lt;/p&gt;
+&lt;p&gt;— Là-dedans, il y a ses textes.&lt;/p&gt;
+&lt;p&gt;Finch releva immédiatement les yeux.&lt;/p&gt;
+&lt;p&gt;— Quels textes ?&lt;/p&gt;
+&lt;p&gt;— Elle avait un blog.&lt;/p&gt;
+&lt;p&gt;— Et ?&lt;/p&gt;
+&lt;p&gt;— Elle écrivait.&lt;/p&gt;
+&lt;p&gt;Stifler, encore vexé de la fermeture prématurée de son département iconographique, retrouva soudain de l’intérêt.&lt;/p&gt;
+&lt;p&gt;— Sur quoi ?&lt;/p&gt;
+&lt;p&gt;J’ai regardé &lt;code&gt;backup-blog/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;— Sur nous.&lt;/p&gt;
+&lt;p&gt;Silence.&lt;/p&gt;
+&lt;p&gt;— Attends.&lt;/p&gt;
+&lt;p&gt;Voilà.&lt;/p&gt;
+&lt;p&gt;Je connaissais ce ton.&lt;/p&gt;
+&lt;p&gt;— Non.&lt;/p&gt;
+&lt;p&gt;— J’ai encore rien demandé.&lt;/p&gt;
+&lt;p&gt;— Et pourtant la réponse est déjà non.&lt;/p&gt;
+&lt;p&gt;— Elle racontait votre histoire ?&lt;/p&gt;
+&lt;p&gt;— Une partie.&lt;/p&gt;
+&lt;p&gt;Finch posa la vraie question.&lt;/p&gt;
+&lt;p&gt;— Quand ?&lt;/p&gt;
+&lt;p&gt;— Pendant.&lt;/p&gt;
+&lt;p&gt;Il fronça légèrement les sourcils.&lt;/p&gt;
+&lt;p&gt;— Pendant les événements ?&lt;/p&gt;
+&lt;p&gt;— Oui. Elle écrivait ce qu’elle vivait.&lt;/p&gt;
+&lt;p&gt;Son regard a changé.&lt;/p&gt;
+&lt;p&gt;Il ne regardait plus vraiment un vieux répertoire.&lt;/p&gt;
+&lt;p&gt;Il regardait une trace.&lt;/p&gt;
+&lt;p&gt;Stifler aussi semblait avoir compris qu’il venait de se passer quelque chose d’important, ce qui était inquiétant parce que je refusais catégoriquement de savoir quelle définition il donnait au mot &lt;em&gt;important&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;— Donc, déclara-t-il avec un sérieux absolument obscène compte tenu de l’individu, ce sont des sources primaires.&lt;/p&gt;
+&lt;p&gt;J’ai regardé Finch.&lt;/p&gt;
+&lt;p&gt;— Je te préviens : s’il commence à parler comme toi pendant tout le bouquin, je te désinstalle.&lt;/p&gt;
+&lt;p&gt;— Je n’ai rien fait.&lt;/p&gt;
+&lt;p&gt;— Pas encore.&lt;/p&gt;
+&lt;p&gt;J’ai ouvert &lt;code&gt;backup-blog/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;À l’intérieur se trouvaient des fichiers, des exports, des morceaux d’une architecture depuis longtemps disparue et surtout ses textes.&lt;/p&gt;
+&lt;p&gt;Je savais qu’ils existaient.&lt;/p&gt;
+&lt;p&gt;Je savais aussi ce qu’ils racontaient.&lt;/p&gt;
+&lt;p&gt;Pas par cœur, évidemment. Je n’aurais probablement pas été capable d’en réciter trois lignes sans tricher, mais les scènes, les lieux et les moments qu’elle avait choisi de conserver étaient restés quelque part dans ma mémoire.&lt;/p&gt;
+&lt;p&gt;Et parmi tout ce que ce vieux disque contenait, c’était probablement ça que j’avais le plus envie de retrouver.&lt;/p&gt;
+&lt;p&gt;Pas les photos.&lt;/p&gt;
+&lt;p&gt;Pas les vidéos, malgré les protestations prévisibles de Stifler.&lt;/p&gt;
+&lt;p&gt;Les mots.&lt;/p&gt;
+&lt;p&gt;Ses mots.&lt;/p&gt;
+&lt;p&gt;Ce que je n’avais jamais vraiment lu, en revanche, c’était tout ce qu’il y avait autour des événements dont je me souvenais : ses hésitations, ses incompréhensions, parfois simplement une phrase que j’avais lue à l’époque sans vraiment m’y arrêter.&lt;/p&gt;
+&lt;p&gt;Finch, lui, semblait déjà chercher ça.&lt;/p&gt;
+&lt;p&gt;C’était retrouver le code source.&lt;/p&gt;
+&lt;p&gt;Et, pour la première fois, avoir envie de lire les commentaires.&lt;/p&gt;
+&lt;p&gt;J’ai sélectionné le premier texte.&lt;/p&gt;
+&lt;p&gt;Puis j’ai hésité.&lt;/p&gt;
+&lt;p&gt;Kevin saisit immédiatement cette dernière possibilité de sauver la situation.&lt;/p&gt;
+&lt;p&gt;— On peut encore fermer.&lt;/p&gt;
+&lt;p&gt;Stifler protesta.&lt;/p&gt;
+&lt;p&gt;— Certainement pas.&lt;/p&gt;
+&lt;p&gt;— Personne ne t’a demandé ton avis.&lt;/p&gt;
+&lt;p&gt;— Je suis membre de cette architecture au même titre que vous.&lt;/p&gt;
+&lt;p&gt;— Tu es une faille de sécurité avec des jambes.&lt;/p&gt;
+&lt;p&gt;— Mais une faille de sécurité qui vote.&lt;/p&gt;
+&lt;p&gt;Oz regardait toujours dans la direction où la photo avait disparu.&lt;/p&gt;
+&lt;p&gt;Finch attendait.&lt;/p&gt;
+&lt;p&gt;J’ai double-cliqué.&lt;/p&gt;
+&lt;p&gt;Quelques lignes sont apparues.&lt;/p&gt;
+&lt;p&gt;Je connaissais le passage.&lt;/p&gt;
+&lt;p&gt;Bien sûr que je le connaissais.&lt;/p&gt;
+&lt;p&gt;Mais je ne le lisais plus tout à fait de la même manière.&lt;/p&gt;
+&lt;p&gt;Je retrouvais les scènes dont je me souvenais et, autour, des détails auxquels je n’avais jamais accordé la même importance. Une hésitation, une contradiction, une inquiétude glissée au milieu d’une phrase, parfois simplement sa façon à elle de raconter un moment que j’avais toujours gardé autrement.&lt;/p&gt;
+&lt;p&gt;Le film n’avait pas changé.&lt;/p&gt;
+&lt;p&gt;C’était toujours la même histoire.&lt;/p&gt;
+&lt;p&gt;Mais j’avais maintenant devant moi quelque chose que ma mémoire seule ne pouvait pas me donner : son regard posé dessus au moment où elle la vivait.&lt;/p&gt;
+&lt;p&gt;Finch ne quittait plus le texte des yeux.&lt;/p&gt;
+&lt;p&gt;— C’est intéressant.&lt;/p&gt;
+&lt;p&gt;Stifler acquiesça gravement.&lt;/p&gt;
+&lt;p&gt;— Extrêmement.&lt;/p&gt;
+&lt;p&gt;— Vous ne parlez absolument pas de la même chose.&lt;/p&gt;
+&lt;p&gt;— Tu n’en sais rien.&lt;/p&gt;
+&lt;p&gt;— Malheureusement, si.&lt;/p&gt;
+&lt;p&gt;J’ai continué à lire.&lt;/p&gt;
+&lt;p&gt;Quelques minutes auparavant, ce dossier n’était qu’une vieille sauvegarde rencontrée par hasard au milieu d’un disque dur.&lt;/p&gt;
+&lt;p&gt;Maintenant, j’avais envie de relire la suite.&lt;/p&gt;
+&lt;p&gt;Pas pour changer ce qui s’était passé.&lt;/p&gt;
+&lt;p&gt;Le film, je le connaissais.&lt;/p&gt;
+&lt;p&gt;Je voulais voir ce que je n’avais pas vu.&lt;/p&gt;
+&lt;p&gt;Finch rompit le silence.&lt;/p&gt;
+&lt;p&gt;— Tu te souviens de l’histoire ?&lt;/p&gt;
+&lt;p&gt;— Oui.&lt;/p&gt;
+&lt;p&gt;— De ce qu’elle voulait dire ?&lt;/p&gt;
+&lt;p&gt;J’ai regardé le texte.&lt;/p&gt;
+&lt;p&gt;— Apparemment, non.&lt;/p&gt;
+&lt;p&gt;— Alors lis.&lt;/p&gt;
+&lt;p&gt;Kevin se retourna vers lui.&lt;/p&gt;
+&lt;p&gt;— Très mauvaise idée.&lt;/p&gt;
+&lt;p&gt;— Pourquoi ?&lt;/p&gt;
+&lt;p&gt;— Parce qu’on sait où ce genre de choses mène.&lt;/p&gt;
+&lt;p&gt;Finch resta quelques secondes silencieux avant de désigner l’écran.&lt;/p&gt;
+&lt;p&gt;— Non. On sait où l’histoire a mené. Ce n’est pas la même chose.&lt;/p&gt;
+&lt;p&gt;Personne n’a répondu.&lt;/p&gt;
+&lt;p&gt;Il venait de gagner un point.&lt;/p&gt;
+&lt;p&gt;Ça m’agaçait déjà.&lt;/p&gt;
+&lt;p&gt;Stifler s’approcha.&lt;/p&gt;
+&lt;p&gt;— Du coup…&lt;/p&gt;
+&lt;p&gt;— Non.&lt;/p&gt;
+&lt;p&gt;— Mais tu vas les relire.&lt;/p&gt;
+&lt;p&gt;— Oui.&lt;/p&gt;
+&lt;p&gt;— Finch va les lire.&lt;/p&gt;
+&lt;p&gt;— Probablement.&lt;/p&gt;
+&lt;p&gt;— Kevin va forcément les lire puisqu’il va vouloir vérifier que vous ne faites pas de connerie.&lt;/p&gt;
+&lt;p&gt;Kevin fronça les sourcils.&lt;/p&gt;
+&lt;p&gt;Le piège venait de se refermer.&lt;/p&gt;
+&lt;p&gt;— Et Oz va les lire parce qu’il est déjà en train de choisir la musique.&lt;/p&gt;
+&lt;p&gt;Nous nous sommes tournés vers Oz.&lt;/p&gt;
+&lt;p&gt;— Quoi ?&lt;/p&gt;
+&lt;p&gt;— Tu pensais à une chanson.&lt;/p&gt;
+&lt;p&gt;— Pas du tout.&lt;/p&gt;
+&lt;p&gt;— Laquelle ?&lt;/p&gt;
+&lt;p&gt;Il hésita.&lt;/p&gt;
+&lt;p&gt;Mauvaise réponse.&lt;/p&gt;
+&lt;p&gt;Stifler écarta les bras.&lt;/p&gt;
+&lt;p&gt;— Donc tout le monde peut lire sauf moi ?&lt;/p&gt;
+&lt;p&gt;— Exactement.&lt;/p&gt;
+&lt;p&gt;— C’est totalement arbitraire.&lt;/p&gt;
+&lt;p&gt;— Oui.&lt;/p&gt;
+&lt;p&gt;— J’exige un recours.&lt;/p&gt;
+&lt;p&gt;— Rejeté.&lt;/p&gt;
+&lt;p&gt;— Une commission indépendante.&lt;/p&gt;
+&lt;p&gt;— Rejetée.&lt;/p&gt;
+&lt;p&gt;— Le respect de mes droits fondamentaux.&lt;/p&gt;
+&lt;p&gt;— Tu n’en as pas.&lt;/p&gt;
+&lt;p&gt;— Je vais saisir la Cour européenne des droits de Stifler.&lt;/p&gt;
+&lt;p&gt;J’ai souri.&lt;/p&gt;
+&lt;p&gt;Puis j’ai regardé encore une fois le répertoire.&lt;/p&gt;
+&lt;p&gt;Il y avait assez de matière pour raconter une histoire.&lt;/p&gt;
+&lt;p&gt;Peut-être même deux.&lt;/p&gt;
+&lt;p&gt;Celle que j’avais vécue.&lt;/p&gt;
+&lt;p&gt;Et celle qu’elle avait écrite.&lt;/p&gt;
+&lt;p&gt;Avec une différence importante : moi, aujourd’hui, je connaissais déjà la fin.&lt;/p&gt;
+&lt;p&gt;Elle, au moment d’écrire, non.&lt;/p&gt;
+&lt;p&gt;J’ai posé les mains sur le clavier.&lt;/p&gt;
+&lt;p&gt;Kevin soupira.&lt;/p&gt;
+&lt;p&gt;Oz se rapprocha.&lt;/p&gt;
+&lt;p&gt;Finch attendit.&lt;/p&gt;
+&lt;p&gt;Stifler tenta discrètement de regarder par-dessus mon épaule.&lt;/p&gt;
+&lt;p&gt;— Dégage.&lt;/p&gt;
+&lt;p&gt;— Je documente.&lt;/p&gt;
+&lt;p&gt;— Tu espionnes.&lt;/p&gt;
+&lt;p&gt;— La frontière est essentiellement sémantique.&lt;/p&gt;
+&lt;p&gt;Je suis revenu au premier texte.&lt;/p&gt;
+&lt;p&gt;Puis j’ai recommencé depuis le début.&lt;/p&gt;
+&lt;p&gt;Stifler regarda l’écran.&lt;/p&gt;
+&lt;p&gt;— On fait quoi, maintenant ?&lt;/p&gt;
+&lt;p&gt;— On retourne au début.&lt;/p&gt;
+&lt;p&gt;Oz sourit.&lt;/p&gt;
+&lt;p&gt;Kevin soupira.&lt;/p&gt;
+&lt;p&gt;Finch attendit.&lt;/p&gt;
+&lt;p&gt;Stifler réfléchit une seconde.&lt;/p&gt;
+&lt;p&gt;— Nom de Zeus.&lt;/p&gt;
+&lt;p&gt;J’ai fermé les yeux.&lt;/p&gt;
+&lt;p&gt;Ça commençait bien.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[SYSTEM]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;TEMPORAL TARGET: DECEMBER
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;DESTINATION: THE BEGINNING
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;FLUX CAPACITOR: READY
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;88 MPH&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copier le code"
+aria-label="Copier le code"
+data-copied-label="Copié !"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Back to the Future.&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>
