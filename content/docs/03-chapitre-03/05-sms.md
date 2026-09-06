@@ -8,7 +8,7 @@ Ils avaient vu ma tête.
 
 Alors forcément, j’ai raconté.
 
-Je ne sais plus exactement jusqu’où je suis allé dans les détails. Probablement suffisamment pour expliquer le tee-shirt, mon sourire de débile et le fait que ma matinée ne ressemblait pas vraiment à une promenade culturelle en Beauce.
+Je ne sais plus exactement jusqu’où je suis allé dans les détails. Probablement suffisamment pour expliquer le tee-shirt, mon sourire de débile et le fait que ma matinée ne ressemblait pas vraiment à une découverte du patrimoine culturel local.
 
 Je leur ai parlé de cette fille que je venais de rencontrer, de ce qui venait de se passer et sûrement d’un certain nombre de détails que ma mémoire a depuis décidé de classer sans index.
 
