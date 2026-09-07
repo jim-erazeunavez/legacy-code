@@ -22,6 +22,17 @@ Souvenirs, humour, nostalgie, culture pop et informatique s'y croisent comme dan
 
 Lecture libre, directement dans le navigateur.
 
+Le dépôt contient les sources du site ainsi qu'un **extrait du livre au format Markdown correspondant aux quatre premiers chapitres**.
+
+La version complète de **Legacy Code** est disponible sur le site.
+
+```text id="h8e6k2"
+repository/
+├── source ............... public
+├── book ................. preview (4 chapters)
+└── full_version ......... erazeunavez.fr
+```
+
 ---
 
 ## 🧰 Stack
