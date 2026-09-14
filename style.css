@@ -1,0 +1,35 @@
+.legacy-layout {
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+}
+
+.book-sidebar {
+    position: sticky;
+    top: 20px;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+    padding-right: 20px;
+    border-right: 1px solid var(--accent);
+}
+
+.legacy-content {
+    min-width: 0;
+}
+
+@media (max-width: 900px) {
+    .legacy-layout {
+        display: block;
+    }
+
+    .book-sidebar {
+        position: static;
+        max-height: none;
+        margin-bottom: 30px;
+        padding-right: 0;
+        padding-bottom: 20px;
+        border-right: 0;
+        border-bottom: 1px solid var(--accent);
+    }
+}
