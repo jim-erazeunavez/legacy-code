@@ -1,5 +1,7 @@
 # Legacy Code
 
+> Featured on dev.to — [I Found a 12-Year-Old Archive. Recompiling It Broke the OS. The OS Was Me.](https://dev.to/jimerazeunavez/i-found-a-12-year-old-archive-recompiling-it-broke-the-os-the-os-was-me-447b)
+
 ![Version](https://img.shields.io/badge/version-1.0-blue)
 ![Status](https://img.shields.io/badge/status-production-success)
 ![Build](https://img.shields.io/badge/build-passing-success)
